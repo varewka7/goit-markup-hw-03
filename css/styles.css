@@ -420,6 +420,11 @@ body {
   background-color: var(--accent-color);
 }
 
+.button.secondary.current {
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+}
+
 /*------------------- projects----------------- */
 
 .projects {

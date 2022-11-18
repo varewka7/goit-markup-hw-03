@@ -243,6 +243,7 @@ body {
   min-width: 73px;
   display: inline-block;
   border: 1px solid transparent;
+  border-radius: 4px;
 
   color: var(--title-text-color);
   background-color: var(--white-bg-color);
@@ -453,4 +454,5 @@ a.portfolio {
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
+  flex-grow: 1;
 }

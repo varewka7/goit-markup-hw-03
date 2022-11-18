@@ -45,7 +45,6 @@ body {
   margin: 0;
   font-family: "Roboto", sans-serif;
   color: var(--primery-text-color);
-  background-color: var(--white-bg-color);
   letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 1.71;
@@ -100,6 +99,7 @@ body {
 
 .page-header-container {
   display: flex;
+  background-color: var(--white-bg-color);
 }
 
 .page-navigation {

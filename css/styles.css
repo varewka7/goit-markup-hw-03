@@ -61,6 +61,10 @@ body {
   margin: 0;
 }
 
+.link {
+  text-decoration: none;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -115,6 +119,9 @@ body {
   line-height: 1.19;
   text-decoration: none;
   display: block;
+}
+
+.logo-header {
   padding-top: 24px;
   padding-bottom: 25px;
 }
@@ -243,6 +250,8 @@ body {
   color: var(--white-text-color);
   background-color: var(--accent-color);
   border: 1px solid transparent;
+  letter-spacing: 0.06em;
+  line-height: 1.88;
 }
 
 .button.primary:hover,
@@ -340,10 +349,6 @@ body {
   padding-bottom: 60px;
 }
 
-.footer .logo {
-  margin-bottom: 20px;
-}
-
 .footer-nav-item:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -354,6 +359,10 @@ body {
 }
 
 .logo-footer {
+  margin-bottom: 20px;
+}
+
+.logo-studio-footer {
   color: var(--white-text-color);
 }
 
@@ -384,7 +393,6 @@ body {
   justify-content: center;
   column-gap: 8px;
   text-align: center;
-  margin-bottom: 34px;
 }
 
 .button.secondary {
@@ -394,6 +402,7 @@ body {
   color: var(--title-text-color);
   background-color: var(--secondery-bg-color);
   border: 1px solid transparent;
+  margin-bottom: 50px;
 }
 
 .button.secondary:hover,
@@ -412,21 +421,13 @@ body {
 .projects {
   display: flex;
   flex-wrap: wrap;
+
   gap: 30px;
-}
-
-a.portfolio {
-  text-decoration: none;
-}
-
-.portfolio {
-  height: 100%;
 }
 
 .project-title {
   color: var(--title-text-color);
 
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -436,8 +437,6 @@ a.portfolio {
 .projects .text {
   color: var(--primery-text-color);
 
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.86;
 }
 
@@ -446,5 +445,4 @@ a.portfolio {
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
-  flex-grow: 1;
 }

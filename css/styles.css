@@ -393,6 +393,7 @@ body {
   justify-content: center;
   column-gap: 8px;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .button.secondary {
@@ -402,7 +403,6 @@ body {
   color: var(--title-text-color);
   background-color: var(--secondery-bg-color);
   border: 1px solid transparent;
-  margin-bottom: 50px;
 }
 
 .button.secondary:hover,
@@ -445,4 +445,8 @@ body {
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
+}
+
+.portfolio-list {
+  width: 370px;
 }

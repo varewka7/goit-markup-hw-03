@@ -421,7 +421,6 @@ body {
 .projects {
   display: flex;
   flex-wrap: wrap;
-  flex-basis: auto;
   gap: 30px;
 }
 
@@ -448,5 +447,5 @@ body {
 }
 
 .portfolio-list {
-  width: calc((100% - 2 * 30px) / 3);
+  flex-basis: calc((100% - 2 * 30px) / 3);
 }

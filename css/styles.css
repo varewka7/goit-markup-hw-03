@@ -448,5 +448,5 @@ body {
 }
 
 .portfolio-list {
-  width: 370px;
+  width: calc((100% - 2 * 30px) / 3);
 }
